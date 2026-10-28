@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+title: "Socratos data: Greek and Latin texts, parses and dictionaries"
+type: dataset
+authors:
+  - name: "Socratos"
+    website: "https://socratos.org"
+url: "https://socratos.org"
+repository-code: "https://github.com/tferris13/socratos-data"
+license: CC-BY-SA-4.0
+keywords:
+  - Ancient Greek
+  - Latin
+  - lemmatization
+  - morphology
+  - LSJ
+  - Lewis and Short
+  - Perseus
