@@ -1,0 +1,670 @@
+rule	work	ref	n	word	old_lemma	old_meaning	new_lemma	new_meaning
+REVIEW garbled lemma	hdt	1.111.3	37	ὀρέων	ὀρός	(garbled form; cf. ὀρρός, whey)	ὄρος	mountain
+REVIEW garbled lemma	hdt	1.112.2	20	ἢν	εἄν	if haply, if; soever	ἐάν	if (+ subjunctive)
+REVIEW garbled lemma	hdt	1.167.1	37	τῶ	ὃς	jis, ji (he, she)	ὅς	who, which, that (relative); his own
+REVIEW garbled lemma	hdt	1.167.2	17	τὰ	ὃς	jis, ji (he, she)	ὅς	who, which, that (relative); his own
+REVIEW garbled lemma	hdt	2.86.3	23	μυξωτήρων	μυς	mouse; rat	μῦς	mouse
+REVIEW garbled lemma	hdt	2.154.2	11	ἐκδιδάσκεσθαι	ἐξω	outside	ἔξω	outside
+REVIEW common word linked to a name (parse disagrees)	hdt	4.79.2	24	σφίγγες	Σφίγξ	Sphigx — whence the name of the Boeotian mountain, Φίκιον ὄρ	σφίγγω	bind tight, bind fast; shut close
+REVIEW garbled lemma	hdt	4.95.3	12	ἀναδιδάσκειν	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	hdt	4.118.1	16	ἐκδιδάσκοντες	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	hdt	6.105.1	21	ἡμεροδρόμην	ἡ	the (feminine)	ἤ	or; than
+REVIEW garbled lemma	hdt	7.84.1	34	ἐξεληλαμένα	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	hdt	7.192.1	11	ἡμεροσκόποι	ἡ	the (feminine)	ἤ	or; than
+REVIEW garbled lemma	hdt	7.219.1	42	ἡμεροσκόποι	ἡ	the (feminine)	ἤ	or; than
+REVIEW garbled lemma	hdt	8.63.1	5	ἀνεδιδάσκετο	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	hdt	8.63.1	14	ἀνεδιδάσκετο	ἀνω	upwards	ἄνω	up, upwards
+REVIEW common word linked to a name (parse disagrees)	hdt	8.111.2	25	πειθώ	Πειθώ	Peitho — Persuasion, goddess	πείθω	to persuade; (mid.) obey, trust
+REVIEW garbled lemma	hdt	9.12.1	22	ἡμεροδρόμων	ἡ	the (feminine)	ἤ	or; than
+REVIEW garbled lemma	hdt	9.42.4	8	ἥδεσθε	ἁνω	upwards	ἄνω	up, upwards
+REVIEW common word linked to a name (parse disagrees)	il	14.115	1	πορθεῖ	Πορθεύς	Portheus — king of Calydon, father of Oeneus (Iliad)	πορθέω	sack, ravage
+REVIEW garbled lemma	il	24.741	1	ἀρητὸν	ἀρατός	accursed; (garbled)	ἀρητός	prayed for
+REVIEW garbled lemma	tlg0001.tlg001	1.1078	5	ἀνηέρθησαν	ἀνα	on board	ἀνά	up, upon, throughout (+acc./dat.)
+REVIEW capitalized name linked to common word	tlg0001.tlg001	3.120	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0001.tlg001	3.275	3	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0001.tlg001	3.297	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0001.tlg001	3.1018	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0001.tlg001	3.1078	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0001.tlg001	3.1158	4	ἀνειρομένῃ	ἀνω	upwards	ἄνω	up, upwards
+REVIEW capitalized name linked to common word	tlg0001.tlg001	4.445	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0001.tlg001	4.675	6	νομῆι	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0001.tlg001	4.1565	3	ἀνειρομένοισιν	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0003.tlg001	3.97.1	13	ἀναδιδάσκοντες	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0003.tlg001	5.36.1	134	ῥᾴω	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0003.tlg001	6.20.2	26	ῥᾴω	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0003.tlg001	6.80.3	6	ἐκδιδάσκειν	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0003.tlg001	6.86.4	2	ἀνιᾶσιν	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0003.tlg001	7.4.4	27	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0003.tlg001	8.64.4	45	ἐναντιωσόμενον	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0004.tlg001	3.1.11	62	κῆνο	ἐνος	the day after tomorrow; eno- (ono-	ε͂νος	the day after tomorrow; eno- (ono-
+REVIEW capitalized name linked to common word	tlg0005.tlg001	2.7	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0005.tlg001	2.55	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0005.tlg001	2.133	3	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0005.tlg001	10.20	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0005.tlg001	15.55	1	ὠνάθην	ημι	say; spake	ἠμί	say, speak
+REVIEW garbled lemma	tlg0005.tlg001	24.24	1	κοίλου	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW garbled lemma	tlg0005.tlg001	28.24	1	κῆνο	ἐνος	the day after tomorrow; eno- (ono-	ε͂νος	the day after tomorrow; eno- (ono-
+REVIEW garbled lemma	tlg0006.tlg001	83	2	ἀθροῖσαι	ἀετιίζω	(garbled form)	ἀθρέω	gaze at
+REVIEW garbled lemma	tlg0006.tlg003	295	3	ἐκδιδάσκεσθαι	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0006.tlg003	320	1	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW capitalized name linked to common word	tlg0006.tlg003	530	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word (section start)	tlg0006.tlg005	525	1	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0006.tlg005	525	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word (section start)	tlg0006.tlg005	533	1	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0006.tlg005	1274	3	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0006.tlg009	1407	7	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0006.tlg010	875	2	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0006.tlg010	1193	5	ἐκσπένδειν	ἐξω	outside	ἔξω	outside
+REVIEW capitalized name linked to common word (section start)	tlg0006.tlg011	840	1	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0006.tlg011	840	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0006.tlg014	90	3	ἐξελήλαμαι	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0006.tlg016	873	2	ἀθροῖσαι	ἀετιίζω	(garbled form)	ἀθρέω	gaze at
+REVIEW capitalized name linked to common word	tlg0006.tlg018	548	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0006.tlg018	1600	4	κοίλους	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW garbled lemma	tlg0007.tlg012	11.1	45	ἐναντιωσόμενον	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0007.tlg016	38.1	44	ἀνιᾶσιν	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0007.tlg021	15.2	5	διεπονοῦντο	ἐπὀνέομαι		διπονέομαι	
+REVIEW garbled lemma	tlg0007.tlg022	25.3	27	ἀθροῖσαι	ἀετιίζω	(garbled form)	ἀθρέω	gaze at
+REVIEW garbled lemma	tlg0007.tlg028	4.3	48	κοίλους	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW garbled lemma	tlg0007.tlg032	20.6	31	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0007.tlg033	1.1	34	κοίλου	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW garbled lemma	tlg0007.tlg039	16.3	41	ἐναντιώσεσθαι	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0007.tlg050	43.1	7	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0007.tlg051	Cleomenes.7.3	34	ἐναντιώσεσθαι	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0007.tlg052	Caius.7.1	39	κοίλων	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW capitalized name linked to common word	tlg0007.tlg058	76.4	7	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg058	76.4	47	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0007.tlg060	53.5	8	ἐναντιώσεσθαι	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0007.tlg067	8	232	σύρων	σύρος	(garbled form)	Σύρος	Syrian; the Syrians (in Herodotus also the Cappadocians)
+REVIEW garbled lemma	tlg0007.tlg070	19·2	29	ἀνιωμένην	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0007.tlg076	8	104	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0007.tlg077	22	37	ἀνιώμενοι	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0007.tlg079	10	165	καναχήποδες	πους	foot; talons	πούς	foot
+REVIEW capitalized name linked to common word	tlg0007.tlg079	15	174	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg0007.tlg081	92.4	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg091	23	120	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg095	1	229	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0007.tlg110	2	137	πολυτρίποδος	πους	foot; talons	πούς	foot
+REVIEW garbled lemma	tlg0007.tlg112	7.8.1	109	ἐκδιδάσκονται	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0007.tlg112	8.8.2	211	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW capitalized name linked to common word	tlg0007.tlg113	3	97	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	4·2	90	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	5·2	164	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	5·2	188	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	9·3	27	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	13	209	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	16·3	31	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	17	9	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	17·2	26	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	18·3	91	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	19	192	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	19	269	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	19·2	144	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	19·3	32	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	20·2	133	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	21·2	178	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	21·3	101	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	21·3	187	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	23·2	12	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	24	81	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0007.tlg113	24	126	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0007.tlg118	25	140	συγκαταλέγοντα	κατἀλέγω	recount, tell at length and in order	καταλέγω	tell in order, recount; (mid.) lie down, enlist
+REVIEW garbled lemma	tlg0007.tlg130	9·2	20	ἐκδιδασκόμενοι	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0007.tlg140	32	59	ἐκδιδάσκεσθαι	ἐξω	outside	ἔξω	outside
+REVIEW capitalized name linked to common word	tlg0011.tlg001	354	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word (section start)	tlg0011.tlg002	781	1	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0011.tlg002	781	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0011.tlg005	424	5	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW garbled lemma	tlg0011.tlg007	197	5	ἁσυχαίᾳ	ἡ	the (feminine)	ἤ	or; than
+REVIEW garbled lemma	tlg0011.tlg007	1292	4	ἐξελήλαμαι	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0011.tlg007	1539	6	ἐκδιδάσκομεν	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0011.tlg007	1593	1	κοίλου	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW garbled lemma	tlg0013.tlg002	61	1	ἤιξʼ	αισσω	shoot, dart, glance; darting upon	ἀίσσω	dart, rush, leap
+REVIEW garbled lemma	tlg0013.tlg002	386	1	ἤιξʼ	αισσω	shoot, dart, glance; darting upon	ἀίσσω	dart, rush, leap
+REVIEW garbled lemma	tlg0013.tlg002	430	4	ἔκθορʼ	θρωσκω	leap, spring; tossed	θρῴσκω	leap, spring
+REVIEW garbled lemma	tlg0013.tlg003	50	3	ἀνειρομένη	ἀνω	upwards	ἄνω	up, upwards
+REVIEW capitalized name linked to common word	tlg0013.tlg004	99	7	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW capitalized name linked to common word	tlg0013.tlg032	8	5	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW capitalized name linked to common word	tlg0013.tlg032	17	6	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW capitalized name linked to common word	tlg0019.tlg001	991	7	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0019.tlg002	202	7	ἀναδίδασκέ	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0019.tlg002	1045	3	ἀναδιδάσκει	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0019.tlg003	325	3	κοίλων	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW capitalized name linked to common word	tlg0019.tlg005	406	3	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW capitalized name linked to common word	tlg0019.tlg006	574	9	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0019.tlg006	696	6	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0019.tlg006	700	8	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0019.tlg006	1737	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0019.tlg007	551	6	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0019.tlg008	233	2	φροντίσῃ	φρετιίζω	(garbled form)	φρόντισις	care, consideration
+REVIEW garbled lemma	tlg0019.tlg009	64	2	ἐκδιδάσκω	ἐξω	outside	ἔξω	outside
+REVIEW capitalized name linked to common word	tlg0019.tlg010	958	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0019.tlg010	967	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0031.tlg001	21.1	14	Ἐλαιῶν	ἐλαία	olive tree	Ἐλαία	Elaia — an Aeolic city of Asia, the port of the Pergameni
+REVIEW capitalized name linked to common word	tlg0031.tlg001	24.3	8	Ἐλαιῶν	ἐλαία	olive tree	Ἐλαία	Elaia — an Aeolic city of Asia, the port of the Pergameni
+REVIEW garbled lemma	tlg0031.tlg001	25.32	9	ἀφορίσει	ἀετιίζω	(garbled form)	ἀφόρισις	
+REVIEW capitalized name linked to common word	tlg0031.tlg001	26.30	8	Ἐλαιῶν	ἐλαία	olive tree	Ἐλαία	Elaia — an Aeolic city of Asia, the port of the Pergameni
+REVIEW capitalized name linked to common word	tlg0031.tlg002	11.1	14	Ἐλαιῶν	ἐλαία	olive tree	Ἐλαία	Elaia — an Aeolic city of Asia, the port of the Pergameni
+REVIEW capitalized name linked to common word	tlg0031.tlg002	13.3	8	Ἐλαιῶν	ἐλαία	olive tree	Ἐλαία	Elaia — an Aeolic city of Asia, the port of the Pergameni
+REVIEW capitalized name linked to common word	tlg0031.tlg002	14.26	8	Ἐλαιῶν	ἐλαία	olive tree	Ἐλαία	Elaia — an Aeolic city of Asia, the port of the Pergameni
+REVIEW capitalized name linked to common word	tlg0031.tlg003	19.29	14	Ἐλαιῶν	ἐλαία	olive tree	Ἐλαία	Elaia — an Aeolic city of Asia, the port of the Pergameni
+REVIEW capitalized name linked to common word	tlg0031.tlg003	19.37	11	Ἐλαιῶν	ἐλαία	olive tree	Ἐλαία	Elaia — an Aeolic city of Asia, the port of the Pergameni
+REVIEW capitalized name linked to common word	tlg0031.tlg003	21.37	19	Ἐλαιῶν	ἐλαία	olive tree	Ἐλαία	Elaia — an Aeolic city of Asia, the port of the Pergameni
+REVIEW capitalized name linked to common word	tlg0031.tlg003	22.39	11	Ἐλαιῶν	ἐλαία	olive tree	Ἐλαία	Elaia — an Aeolic city of Asia, the port of the Pergameni
+REVIEW capitalized name linked to common word	tlg0031.tlg004	8.1	8	Ἐλαιῶν	ἐλαία	olive tree	Ἐλαία	Elaia — an Aeolic city of Asia, the port of the Pergameni
+REVIEW garbled lemma	tlg0031.tlg005	8.3	10	σύρων	σύρος	(garbled form)	Σύρος	Syrian; the Syrians (in Herodotus also the Cappadocians)
+REVIEW garbled lemma	tlg0032.tlg001	5.1.15	39	ἀνιᾶσθε	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0032.tlg002	3.9.8	35	ἀνιωμένους	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0032.tlg002	3.11.8	26	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0032.tlg002	3.12.3	20	ῥᾴω	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0032.tlg002	4.2.1	73	ἡνιοποιεῖόν	ἡ	the (feminine)	ἤ	or; than
+REVIEW garbled lemma	tlg0032.tlg002	4.2.8	26	ἡνιοποιεῖον	ἡ	the (feminine)	ἤ	or; than
+REVIEW garbled lemma	tlg0032.tlg003	3.2	44	ἀνιωμένους	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0032.tlg003	12.16	21	ἐκδιδάσκεις	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0032.tlg006	1.3.21	38	ἡμιδαρεικὰ	ἡ	the (feminine)	ἤ	or; than
+REVIEW garbled lemma	tlg0032.tlg006	5.3.9	55	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0032.tlg007	3.2.5	5	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0032.tlg007	6.4.6	29	ἐπιέσασθαι	ἐπομαι		ἕπομαι	to follow, accompany
+REVIEW capitalized name linked to common word	tlg0032.tlg007	8.3.12	9	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg0032.tlg007	8.3.24	16	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg0032.tlg007	8.7.3	10	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW garbled lemma	tlg0032.tlg008	1.36	38	ἀνιωμένῳ	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0032.tlg009	9.4	27	συνελκυστέον	σος	thy, thine; of yours	σός	your, yours (sg.)
+REVIEW garbled lemma	tlg0032.tlg010	9.2	20	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0032.tlg012	1.16	16	ῥᾴω	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0032.tlg014	3.8	28	ἀνιᾶσιν	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0033.tlg003	1.1	1	ἄμπνευμα	αμα	at once, at the same time; partly . . partly	ἅμα	at the same time; together with (+dat.)
+REVIEW garbled lemma	tlg0035.tlg002	81	3	σύρων	σύρος	(garbled form)	Σύρος	Syrian; the Syrians (in Herodotus also the Cappadocians)
+REVIEW capitalized name linked to common word	tlg0035.tlg005	5.4	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0035.tlg005	6.8	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0035.tlg005	7.2	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0036.tlg003	5.9	3	ἐξεδίδασκον	ἐξω	outside	ἔξω	outside
+REVIEW capitalized name linked to common word	tlg0036.tlg003	5.13	3	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0036.tlg003	14.1	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0059.tlg003	53	154	διαφθορέα	δις	twice, doubly; twice over	δίς	twice
+REVIEW garbled lemma	tlg0059.tlg003	53	173	διαφθορεύς	δις	twice, doubly; twice over	δίς	twice
+REVIEW garbled lemma	tlg0059.tlg003	53	184	διαφθορεὺς	δις	twice, doubly; twice over	δίς	twice
+REVIEW garbled lemma	tlg0059.tlg006	177	191	ῥᾴω	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0059.tlg007	252	184	ἐναντιωσόμενον	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0059.tlg007	260	86	διομολογητέον	δις	twice, doubly; twice over	δίς	twice
+REVIEW garbled lemma	tlg0059.tlg007	261	200	ῥᾴω	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0059.tlg008	271	259	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0059.tlg008	286	33	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0059.tlg009	142	126	διομολογητέα	δις	twice, doubly; twice over	δίς	twice
+REVIEW garbled lemma	tlg0059.tlg010	37	168	διομολογητέον	δις	twice, doubly; twice over	δίς	twice
+REVIEW garbled lemma	tlg0059.tlg010	52	270	ῥᾴω	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW capitalized name linked to common word	tlg0059.tlg011	178	17	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	178	110	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	179	47	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	179	72	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	180	157	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	180	211	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	181	46	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	187	279	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	188	92	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	188·2	14	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	193	97	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	195	136	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	195	172	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	195	221	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	195	233	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	196	64	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	196	97	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	196	137	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	196	225	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	196	244	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	196·2	36	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	196·2	47	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	197	48	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	197	148	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	199	206	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	199	241	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	199	261	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	199·2	44	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	200	17	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	200·2	56	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	201	67	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	201	95	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	201	160	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	201	285	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	201·2	19	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	201·2	55	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	202	273	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	203	87	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	203	187	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	203	214	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	203·2	40	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	204	91	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	204	99	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	204	182	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	204	222	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	204	247	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg011	204	265	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg012	243	12	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg012	257	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0059.tlg012	272	157	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0059.tlg013	103	66	ἐναντιώσεσθαι	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0059.tlg019	190	205	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0059.tlg022	336	21	ἡμεροδρόμων	ἡ	the (feminine)	ἤ	or; than
+REVIEW garbled lemma	tlg0059.tlg023	498	238	ἀνιωμένοις	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0059.tlg030	2.369	11	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0059.tlg030	4.424	226	οἰκοδομητέον	οις	sheep; ram	ὄις	sheep
+REVIEW garbled lemma	tlg0059.tlg030	7.517	171	συλλογιστέα	σος	thy, thine; of yours	σός	your, yours (sg.)
+REVIEW garbled lemma	tlg0059.tlg030	7.527	79	διομολογητέον	δις	twice, doubly; twice over	δίς	twice
+REVIEW capitalized name linked to common word	tlg0059.tlg030	9.573	150	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg030	9.573	262	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0059.tlg030	9.575	27	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0059.tlg030	9.588	245	ῥᾴω	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0059.tlg031	22	284	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0059.tlg031	63	81	διομολογητέον	δις	twice, doubly; twice over	δίς	twice
+REVIEW garbled lemma	tlg0059.tlg031	72	208	κοίλου	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW garbled lemma	tlg0059.tlg032	109	106	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0059.tlg032	116	79	κοίλους	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW garbled lemma	tlg0059.tlg033	321	203	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0059.tlg034	2.659	125	ἐναντιωσόμενος	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0059.tlg034	3.677	70	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0059.tlg034	3.679	16	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0059.tlg034	3.689	92	ἐναντιῶται	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0059.tlg034	4.708	150	ῥᾴω	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0059.tlg034	5.736	199	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0059.tlg034	5.737·2	30	νομῇ	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0059.tlg034	8.848	171	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0059.tlg034	11.931	207	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW capitalized name linked to common word	tlg0059.tlg034	12.946	154	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg0059.tlg034	12.946	168	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg0062.tlg004	8	15	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0062.tlg011	29	6	ἀθροῖσαι	ἀετιίζω	(garbled form)	ἀθρέω	gaze at
+REVIEW garbled lemma	tlg0062.tlg012	1.8	103	ἐμέθυεν	μεθὕω	to be drunken with wine; drunkenness	μεθύω	be drunk
+REVIEW garbled lemma	tlg0062.tlg015	17	4	ἐμέθυον	μεθὕω	to be drunken with wine; drunkenness	μεθύω	be drunk
+REVIEW garbled lemma	tlg0062.tlg016	11	24	ἀνιάσῃ	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW capitalized name linked to common word	tlg0062.tlg018	11	7	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW garbled lemma	tlg0062.tlg019	9	132	ὁποσάπουν	πους	foot; talons	πούς	foot
+REVIEW capitalized name linked to common word	tlg0062.tlg021	20	6	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW garbled lemma	tlg0062.tlg021	30	27	ἐκδιδάσκουσι	ἐξω	outside	ἔξω	outside
+REVIEW capitalized name linked to common word	tlg0062.tlg021	32	58	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW capitalized name linked to common word	tlg0062.tlg026	1	99	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW capitalized name linked to common word	tlg0062.tlg031	14	245	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW capitalized name linked to common word	tlg0062.tlg032	15	58	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0062.tlg032	15	69	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0062.tlg034	22	10	ἐκδιδάσκοντες	ἐξω	outside	ἔξω	outside
+REVIEW capitalized name linked to common word	tlg0062.tlg043	1	24	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW garbled lemma	tlg0062.tlg044	36	84	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0062.tlg044	46	146	ἀνιώμενοι	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0062.tlg046	20	108	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0062.tlg049	13	45	ἀναδιδάσκειν	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0062.tlg052	2	70	ἀνιωμένῳ	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW capitalized name linked to common word	tlg0062.tlg053	1	103	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0062.tlg055	11	89	ἀνιωμένῳ	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0062.tlg055	32	107	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW capitalized name linked to common word	tlg0062.tlg056	5	98	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0062.tlg063	71	29	ἀνιάσῃ	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0062.tlg067	2.2	8	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0062.tlg068	4.1	122	ἐκδιδάσκειν	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0062.tlg068	5.1	59	νομῇ	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW capitalized name linked to common word	tlg0062.tlg068	6.1	19	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0062.tlg068	19.1	4	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW capitalized name linked to common word	tlg0062.tlg068	20.1	3	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0062.tlg068	23.1	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0062.tlg069	5.2	88	ἐμέθυον	μεθὕω	to be drunken with wine; drunkenness	μεθύω	be drunk
+REVIEW capitalized name linked to common word	tlg0062.tlg069	11.1	60	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0074.tlg001	3.14.4	25	ξυνεξορμῆσαι	συνἐξορμάω	help to urge on; assists in raising	συνεξορμάω	help to urge on; assists in raising
+REVIEW garbled lemma	tlg0081.tlg001	1.10.2	29	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0081.tlg001	1.39.3	27	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0081.tlg001	1.79.12	13	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0081.tlg001	1.84.5	21	ἐκδιδασκομένους	ἐξω	outside	ἔξω	outside
+REVIEW capitalized name linked to common word	tlg0081.tlg001	2.50.3	54	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW garbled lemma	tlg0081.tlg001	3.72.4	64	ἐναντιωσόμενον	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0081.tlg001	4.63.2	48	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0081.tlg001	5.70.3	45	ἐναντιωθεῖεν	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0081.tlg001	6.48.1	42	ἐναντιώσεσθαι	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0081.tlg001	6.65.2	16	ἐναντιώσεσθαι	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0081.tlg001	6.69.2	67	ἐναντιωσομένων	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0081.tlg001	6.85.3	43	ἐναντιωσόμεθα	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0081.tlg001	7.7.2	27	ἀνιώμενοι	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0081.tlg001	7.34.5	24	ἀναδιδάσκοντος	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0081.tlg001	7.50.5	34	ἐναντιώσεσθαι	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0081.tlg001	8.42.1	54	ἐξελήλαται	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0081.tlg001	10.1.2	7	ἀναδιδασκόμενος	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0081.tlg001	10.19.3	28	ἐναντιωσόμενον	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0081.tlg001	10.30.7	52	ἐναντιωσομένην	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0081.tlg001	11.54.4	38	ἐναντιώσεσθαι	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0081.tlg001	11.55.3	27	ἐναντιωσομένων	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0081.tlg001	12.8.2	3	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0086.tlg010	1.11	107	συλλογιστέον	σος	thy, thine; of yours	σός	your, yours (sg.)
+REVIEW garbled lemma	tlg0086.tlg010	3.8·2	223	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0086.tlg010	9.2·2	135	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0086.tlg025	11.7	253	κοίλου	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW garbled lemma	tlg0086.tlg035	2.1263a	92	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0086.tlg035	4.1288b	266	ῥᾴω	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0086.tlg035	5.1303b·2	25	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0086.tlg035	6.1318b	98	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0086.tlg035	7.1334a	58	ἀνιᾶσιν	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0086.tlg038	2.20.8	1	ῥᾴω	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0086.tlg038	2.21.2	76	ἐκδιδάσκεσθαι	ἐξω	outside	ἔξω	outside
+REVIEW capitalized name linked to common word	tlg0099.tlg001	1.2.27	200	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW garbled lemma	tlg0099.tlg001	1.2.33	80	συγκαταλέξαι	κατἀλέξω		σύν	with, together with (+dat.)
+REVIEW garbled lemma	tlg0099.tlg001	6.2.4·2	179	ἄμπνευμα	αμα	at once, at the same time; partly . . partly	ἅμα	at the same time; together with (+dat.)
+REVIEW garbled lemma	tlg0099.tlg001	7.3.2	144	συγκαταλέγειν	κατἀλέγω	recount, tell at length and in order	καταλέγω	tell in order, recount; (mid.) lie down, enlist
+REVIEW garbled lemma	tlg0099.tlg001	7.fragments.44	69	κοίλου	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW garbled lemma	tlg0099.tlg001	8.3.8	219	συγκαταλέγειν	κατἀλέγω	recount, tell at length and in order	καταλέγω	tell in order, recount; (mid.) lie down, enlist
+REVIEW garbled lemma	tlg0099.tlg001	8.3.27	94	παραπλευστέα	πας	all; every	πᾶς	all, every, whole
+REVIEW garbled lemma	tlg0099.tlg001	12.8.9	212	διαφθορεὺς	δις	twice, doubly; twice over	δίς	twice
+REVIEW garbled lemma	tlg0099.tlg001	13.3.1	20	συγκαταλέγονται	κατἀλέγω	recount, tell at length and in order	καταλέγω	tell in order, recount; (mid.) lie down, enlist
+REVIEW garbled lemma	tlg0099.tlg001	13.3.1	218	συγκαταλέγων	κατἀλέγω	recount, tell at length and in order	καταλέγω	tell in order, recount; (mid.) lie down, enlist
+REVIEW capitalized name linked to common word	tlg0099.tlg001	14.1.6	192	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW garbled lemma	tlg0099.tlg001	16.2.33	58	κοίλων	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW garbled lemma	tlg0099.tlg001	16.4.10	36	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0099.tlg001	16.4.15	183	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0099.tlg001	16.4.17	47	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0363.tlg007	3.5	131	ἐναντιωθῶσι	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0363.tlg007	3.13·8	82	διαφθορέας	δις	twice, doubly; twice over	δίς	twice
+REVIEW garbled lemma	tlg0363.tlg007	3.13·9	139	διαφθορέας	δις	twice, doubly; twice over	δίς	twice
+REVIEW garbled lemma	tlg0363.tlg007	4.10·7	154	ἐναντιωθῶσι	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0385.tlg001	37.50.2	3	ἀθροῖσαι	ἀετιίζω	(garbled form)	ἀθρέω	gaze at
+REVIEW garbled lemma	tlg0385.tlg001	38.30.1	6	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0385.tlg001	40.36.4	37	ῥᾴω	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0385.tlg001	40.65.4	31	ἀντικαταλέξειν	κατἀλέξω		καταλέγω	tell in order, recount; (mid.) lie down, enlist
+REVIEW garbled lemma	tlg0385.tlg001	42.28.3	12	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0385.tlg001	46.18.2	28	σύρων	σύρος	(garbled form)	Σύρος	Syrian; the Syrians (in Herodotus also the Cappadocians)
+REVIEW garbled lemma	tlg0385.tlg001	48.5.2	15	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0385.tlg001	49.8.5	38	προπαρέτασσε	παρἐτάζω	put beside and compare; approve	προπαρατάσσω	post in front
+REVIEW garbled lemma	tlg0385.tlg001	49.17.3	29	ῥᾴω	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0385.tlg001	49.20.1	4	ἀθροῖσαι	ἀετιίζω	(garbled form)	ἀθρέω	gaze at
+REVIEW capitalized name linked to common word	tlg0385.tlg001	50.5.3	31	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW garbled lemma	tlg0385.tlg001	52.28.7	28	ῥᾴω	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW capitalized name linked to common word	tlg0525.tlg001	1.43.6	35	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0525.tlg001	1.44.1	48	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW capitalized name linked to common word	tlg0525.tlg001	2.1.6	27	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg0525.tlg001	2.1.6	49	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg0525.tlg001	2.4.6	16	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg0525.tlg001	2.4.6	58	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg0525.tlg001	2.5.1	17	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0525.tlg001	2.11.1	108	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg0525.tlg001	2.27.3	23	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0525.tlg001	2.34.10	60	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg0525.tlg001	3.20.4	17	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW garbled lemma	tlg0525.tlg001	4.9.5	54	ἀνεδίδασκε	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0525.tlg001	4.20.3	44	ἀνεδίδασκεν	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0525.tlg001	4.20.10	54	ἀνεδίδασκεν	ἀνω	upwards	ἄνω	up, upwards
+REVIEW capitalized name linked to common word	tlg0525.tlg001	5.11.8	52	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0525.tlg001	5.11.8	84	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW garbled lemma	tlg0525.tlg001	5.12.2	3	ἀναδιδάσκεσθαι	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0525.tlg001	5.16.4	23	ἀθροῖσαι	ἀετιίζω	(garbled form)	ἀθρέω	gaze at
+REVIEW garbled lemma	tlg0525.tlg001	6.15.5	10	ἀνεδίδασκεν	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0525.tlg001	6.16.5	23	ἡμεροδρόμος	ἡ	the (feminine)	ἤ	or; than
+REVIEW capitalized name linked to common word	tlg0525.tlg001	6.23.5	55	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0525.tlg001	6.24.6	32	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW garbled lemma	tlg0525.tlg001	7.5.13	38	ἀνιωμένοις	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0525.tlg001	7.14.4	52	ἀθροῖσαι	ἀετιίζω	(garbled form)	ἀθρέω	gaze at
+REVIEW capitalized name linked to common word	tlg0525.tlg001	7.26.8	21	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0525.tlg001	8.24.8	50	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0525.tlg001	8.42.6	26	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW capitalized name linked to common word	tlg0525.tlg001	9.27.2	96	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0525.tlg001	10.9.3	25	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0525.tlg001	10.22.2	42	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0525.tlg001	10.22.8	42	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0525.tlg001	10.32.2	20	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0526.tlg001	2.203	37	ἀναδιδάσκεσθαι	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0526.tlg001	2.282	32	ἀνεδίδασκεν	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0526.tlg001	3.27	15	ἀνεδίδασκεν	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0526.tlg001	3.50	51	ἀναδιδάσκων	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0526.tlg001	3.67	37	ἀνεδίδασκεν	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0526.tlg001	3.107	22	ἀνεδίδασκε	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0526.tlg001	5.358	34	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0526.tlg001	6.46	8	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0526.tlg001	7.165	40	ῥᾴω	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0526.tlg001	8.336	13	ἀθροῖσαι	ἀετιίζω	(garbled form)	ἀθρέω	gaze at
+REVIEW garbled lemma	tlg0526.tlg001	9.2	28	ἐκδιδάσκειν	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0526.tlg001	9.89	48	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0526.tlg001	10.187	35	ἐξεδίδασκε	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0526.tlg001	11.187	36	διεπέτασεν	ἐπἐτάζω		διπετάννυμι	
+REVIEW garbled lemma	tlg0526.tlg001	11.271	50	ἐναντιώσεσθαι	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW capitalized name linked to common word	tlg0526.tlg001	13.420	3	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW garbled lemma	tlg0526.tlg001	14.403	34	ἡμιιουδαίῳ	ἡ	the (feminine)	ἤ	or; than
+REVIEW garbled lemma	tlg0526.tlg001	16.205	37	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0526.tlg001	17.5	40	ἀντιπεριστάντων	περιἱμι	to be around; to be superior to	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0526.tlg001	18.245	17	ἀναδιδάσκειν	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0526.tlg001	18.357	16	ἀνεδίδασκεν	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0526.tlg001	19.141	17	ἀνεδίδασκεν	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0526.tlg002	150	9	ἀνεδίδασκον	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0526.tlg003	1.8	15	συγκαταλέγειν	κατἀλέγω	recount, tell at length and in order	καταλέγω	tell in order, recount; (mid.) lie down, enlist
+REVIEW garbled lemma	tlg0526.tlg004	1.317	5	ἐξεληλαμένων	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0526.tlg004	4.468	20	ἀνιᾶσιν	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW capitalized name linked to common word	tlg0526.tlg004	5.70	12	Ἐλαιῶν	ἐλαία	olive tree	Ἐλαία	Elaia — an Aeolic city of Asia, the port of the Pergameni
+REVIEW capitalized name linked to common word	tlg0526.tlg004	5.135	9	Ἐλαιῶν	ἐλαία	olive tree	Ἐλαία	Elaia — an Aeolic city of Asia, the port of the Pergameni
+REVIEW capitalized name linked to common word	tlg0526.tlg004	5.504	24	Ἐλαιῶν	ἐλαία	olive tree	Ἐλαία	Elaia — an Aeolic city of Asia, the port of the Pergameni
+REVIEW capitalized name linked to common word	tlg0526.tlg004	6.157	24	Ἐλαιῶν	ἐλαία	olive tree	Ἐλαία	Elaia — an Aeolic city of Asia, the port of the Pergameni
+REVIEW garbled lemma	tlg0526.tlg004	7.131	30	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW capitalized name linked to common word	tlg0533.tlg003	42.3	3	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg0533.tlg004	43.3	3	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0540.tlg013	21	14	ἐναντιωσόμενοι	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0543.tlg001	3.18.10	23	κοίλους	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW garbled lemma	tlg0543.tlg001	12.25f.2	13	ἀτενίσῃ	ἀετιίζω	(garbled form)	ἀτένισις	straining of the eyesight
+REVIEW garbled lemma	tlg0543.tlg001	21.28.14	6	περισάξαντας	περιἰσάζω		περισάσσω	
+REVIEW capitalized name linked to common word	tlg0548.tlg001	1.2.2	30	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW capitalized name linked to common word	tlg0548.tlg001	1.6.1	128	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg0548.tlg001	1.7.5	26	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW garbled lemma	tlg0548.tlg001	1.9.7	51	σύρων	σύρος	(garbled form)	Σύρος	Syrian; the Syrians (in Herodotus also the Cappadocians)
+REVIEW capitalized name linked to common word	tlg0548.tlg001	2.5.10	193	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW garbled lemma	tlg0548.tlg001	3.6.3	51	συγκαταλέγουσι	κατἀλέγω	recount, tell at length and in order	καταλέγω	tell in order, recount; (mid.) lie down, enlist
+REVIEW garbled lemma	tlg0548.tlg002	1.21	28	ἐμέθυον	μεθὕω	to be drunken with wine; drunkenness	μεθύω	be drunk
+REVIEW garbled lemma	tlg0548.tlg002	4.7	87	σύρων	σύρος	(garbled form)	Σύρος	Syrian; the Syrians (in Herodotus also the Cappadocians)
+REVIEW garbled lemma	tlg0551.tlg009	10.70	61	ἐξεληλαμένους	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0551.tlg017	1.8.70	208	ἐξελήλαντο	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0551.tlg017	1.12.103	181	ἐξεληλαμένοις	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0551.tlg017	2.10.64	38	ἀνεδίδασκεν	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0551.tlg017	2.10.67	99	ἀνεδίδασκεν	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0551.tlg017	2.11.81	82	ἐκδιδάσκων	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0555.tlg001	1·6	6	ἐκδιδασκόμενοι	ἐξω	outside	ἔξω	outside
+REVIEW capitalized name linked to common word	tlg0555.tlg001	2·14	201	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW garbled lemma	tlg0555.tlg004	1.7.37	259	ἐκδιδάσκοντα	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0555.tlg004	1.18.90	124	ἐκδιδάσκεσθαι	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0555.tlg004	2.15.66	80	ἐκδιδάσκων	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0555.tlg004	3.18.106	45	ἐκδιδάσκοντες	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0555.tlg004	5.3.18	114	ἐκδιδασκόμεθα	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0555.tlg004	5.13.118	68	ἐκδιδάσκων	ἐξω	outside	ἔξω	outside
+REVIEW capitalized name linked to common word	tlg0555.tlg004	6.2.14	112	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg0555.tlg004	6.15.123	33	ἐκδιδάσκεσθαι	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0555.tlg004	6.16.140	151	συγκαταλέγεται	κατἀλέγω	recount, tell at length and in order	καταλέγω	tell in order, recount; (mid.) lie down, enlist
+REVIEW garbled lemma	tlg0555.tlg004	6.18.167	24	ἐκδιδάσκοντες	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg0557.tlg001	2.16.40	4	ἀνιάσω	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0557.tlg001	3.1.10	13	ἀνιάσω	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0557.tlg001	4.9.13	9	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg0627.tlg001	22	135	κοίλου	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW garbled lemma	tlg0627.tlg004	7·2	122	ἐναντιῶται	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg0627.tlg010	9	107	κοίλου	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW garbled lemma	tlg0627.tlg010	50·2	177	ἀναποθῇ	ἀπὀθέω	run away	ἀπθάομαι	
+REVIEW garbled lemma	tlg0627.tlg051	7	99	ἀνιώμενοι	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg0719.tlg002	2.9·4	75	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg0719.tlg002	2.12	176	ἀναίσθη	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg0719.tlg003	1.5·3	54	ἀνεπόθη	ἐπὀθέω		ἀνπίνω	
+REVIEW garbled lemma	tlg1216.tlg001	16.5	31	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW garbled lemma	tlg2003.tlg002	8	123	ἐκδιδάσκειν	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg2003.tlg003	28·2	25	νομῆς	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW capitalized name linked to common word	tlg2003.tlg007	22·3	92	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW garbled lemma	tlg2003.tlg008	6·2	12	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW capitalized name linked to common word	tlg2003.tlg011	10	52	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg2003.tlg011	12	172	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg2003.tlg011	21	33	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg2003.tlg011	22	139	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg2003.tlg011	23	39	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg2003.tlg011	29	110	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg2003.tlg011	30	14	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg2003.tlg011	31	130	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg2003.tlg011	32	12	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg2003.tlg011	32	41	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg2003.tlg011	32	81	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW capitalized name linked to common word	tlg2003.tlg011	40	69	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg2003.tlg011	40	132	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg2003.tlg011	41	93	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg2003.tlg011	42·2	23	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW capitalized name linked to common word	tlg2003.tlg011	42·2	29	Ἡλίῳ	ἥλιος	sun	Ἥλιος	Helios — Helios, the Sun
+REVIEW garbled lemma	tlg2003.tlg012	7·2	81	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg2003.tlg013	41.3	121	ἐναντιούσθω	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg2003.tlg013	78.2	148	ἡμεροδρόμου	ἡ	the (feminine)	ἤ	or; than
+REVIEW garbled lemma	tlg2003.tlg013	82.1	15	ἀνιωμένους	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg2003.tlg013	82.1	94	ἀνιώμενόν	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg2018.tlg002	1.7.11	20	ἐκδιδάσκοντες	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg2018.tlg002	2.1.9	15	σύρων	σύρος	(garbled form)	Σύρος	Syrian; the Syrians (in Herodotus also the Cappadocians)
+REVIEW capitalized name linked to common word	tlg2018.tlg002	2.21.1	43	Ἐλαιῶν	ἐλαία	olive tree	Ἐλαία	Elaia — an Aeolic city of Asia, the port of the Pergameni
+REVIEW garbled lemma	tlg2018.tlg002	3.20.8	30	ἐξεληλαμένους	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg2018.tlg002	5.28.17	49	ἐπιδιαστραφεῖσιν	διἀστράπτω	glance like lightning	διστράπτω	
+REVIEW garbled lemma	tlg2018.tlg002	6.43.4	44	ἀναδιδάσκων	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg2018.tlg002	10.6.1	53	φροντίσῃ	φρετιίζω	(garbled form)	φρόντισις	care, consideration
+REVIEW garbled lemma	tlg2018.tlg002	10.6.3	52	φροντίσῃ	φρετιίζω	(garbled form)	φρόντισις	care, consideration
+REVIEW garbled lemma	tlg2040.tlg002	9.14	62	κατασαρκοῦντα	κατἀσαρκέω		κατσαρκάω	
+REVIEW garbled lemma	tlg2040.tlg002	10.6	16	ἀνιωμένοις	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg2040.tlg004	1·2	57	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg2040.tlg004	210·4	162	ἐκδιδάσκων	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg2040.tlg004	228	43	ἀνιώμενοι	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg2040.tlg004	244·2	193	ἡμεροδρόμοι	ἡ	the (feminine)	ἤ	or; than
+REVIEW garbled lemma	tlg2934.tlg066	19.161	44	ἐκδιδάσκων	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg2934.tlg066	39.355	80	ἀνιωμένην	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW garbled lemma	tlg3135.tlg001	preface·4	118	ἐναντιωθήσομαι	ἀντι	a/nti; ante	ἀντί	instead of, against (+gen.)
+REVIEW garbled lemma	tlg3135.tlg001	3.22·3	128	ἐπιέσασθαι	ἐπομαι		ἕπομαι	to follow, accompany
+REVIEW garbled lemma	tlg3135.tlg001	4.12	36	ἐκδιδάσκεσθαι	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg3135.tlg001	5.19·2	258	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg4029.tlg001	1.18.32	29	ἐκδιδάσκονται	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg4029.tlg001	2.3.11	16	ῥᾴων	ῥάιος	(garbled form of ῥᾴδιος, easy)	ῥᾴδιος	easy
+REVIEW garbled lemma	tlg4029.tlg001	4.4.3	40	ἐμέθυον	μεθὕω	to be drunken with wine; drunkenness	μεθύω	be drunk
+REVIEW garbled lemma	tlg4029.tlg001	5.4.3	13	ἀνιωμένῳ	ἀνιάομαι	(garbled form)	ἀνιάω	grieve, distress
+REVIEW capitalized name linked to common word (section start)	tlg4029.tlg001	7.1.8	1	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg4029.tlg001	8.3.21	22	ἐκδιδάσκεσθαι	ἐξω	outside	ἔξω	outside
+REVIEW garbled lemma	tlg4029.tlg001	8.7.3	13	διαφθορέα	δις	twice, doubly; twice over	δίς	twice
+REVIEW garbled lemma	tlg4029.tlg002	2.11	20	διαφθορέα	δις	twice, doubly; twice over	δίς	twice
+REVIEW garbled lemma	tlg4029.tlg002	6.22	1	διαφθορεὺς	δις	twice, doubly; twice over	δίς	twice
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v10	14.107.1	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg7000.tlg001.v10	16.54a.2	2	κοίλων	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW garbled lemma	tlg7000.tlg001.v10	16.74.4	6	νομῆι	νομάζω	call by name; (garbled)	νομεύς	herdsman
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v10	16.103.6	7	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v10	16.104.5	3	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v10	16.198.4	6	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v10	16.200.2	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v10	16.207.1	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v10	16.208.2	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v10	16.212.1	3	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v10	16.213.3	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v10	16.214.7	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v10	16.250.2	7	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v10	16.251.6	7	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v10	16.288.3	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v10	16.337.1	5	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v10	16.357.1	5	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW garbled lemma	tlg7000.tlg001.v6	2.1.74	5	ἀνειρομένοισιν	ἀνω	upwards	ἄνω	up, upwards
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	4.1.10	6	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.4.3	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.22.1	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.25.6	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.26.4	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.57.2	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.58.1	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.68.1	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.97.1	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.123.1	5	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.123.5	7	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.140.2	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.155.2	6	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg7000.tlg001.v6	5.170.4	3	κήνα	ἐνος	the day after tomorrow; eno- (ono-	ε͂νος	the day after tomorrow; eno- (ono-
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.176.1	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.176.2	6	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.179.1	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.180.1	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.191.1	7	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.195.6	7	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.196.1	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.197.5	6	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.198.6	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.215.1	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.224.1	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.239.4	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.243.5	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.243.8	3	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg7000.tlg001.v6	5.250.7	3	ἀνειρομένῳ	ἀνω	upwards	ἄνω	up, upwards
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.266.3	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.268.2	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.274.1	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.293.1	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.301.2	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	5.309.1	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v6	6.260.4	7	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v7	7.14.3	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg7000.tlg001.v7	7.168.4	2	κοίλων	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v7	7.217.2	8	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v7	7.218.12	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg7000.tlg001.v7	7.291.4	3	κοίλου	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v7	7.449.1	3	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg7000.tlg001.v7	7.470.1	2	ἀνειρομένῳ	ἀνω	upwards	ἄνω	up, upwards
+REVIEW garbled lemma	tlg7000.tlg001.v7	7.531.2	2	κοίλων	κόιλος	hollow (garbled form of κοῖλος)	κοῖλος	hollow
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v7	7.628.6	6	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v7	7.703.4	7	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v7	7.703.6	6	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg7000.tlg001.v7	7.709.4	5	πολυτρίποδος	πους	foot; talons	πούς	foot
+REVIEW garbled lemma	tlg7000.tlg001.v7	8.72.2	2	ἀνηέρθη	ἀνα	on board	ἀνά	up, upon, throughout (+acc./dat.)
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v7	8.127.4	7	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg7000.tlg001.v7	8.141.2	2	ἀνηέρθης	ἀνα	on board	ἀνά	up, upon, throughout (+acc./dat.)
+REVIEW garbled lemma	tlg7000.tlg001.v7	8.157.4	2	ἀνηέρθη	ἀνα	on board	ἀνά	up, upon, throughout (+acc./dat.)
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v8	9.132.1	3	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v8	9.325.4	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v8	9.443.2	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v8	9.449.1	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v8	9.449.4	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v8	9.480.2	6	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg7000.tlg001.v8	9.586.5	8	σύρων	σύρος	(garbled form)	Σύρος	Syrian; the Syrians (in Herodotus also the Cappadocians)
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v8	9.611.2	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v8	9.616.2	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v8	9.626.1	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v8	9.627.2	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v8	9.639.1	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v8	9.666.1	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v8	9.669.11	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v8	9.683.2	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v8	9.784.2	6	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v8	9.822.1	6	Σελήνη	σελήνη	moon	Σελήνη	Selene — the Moon (goddess)
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	10.29.1	3	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	10.29.2	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW garbled lemma	tlg7000.tlg001.v9	11.371.1	6	λιμοφορήων	λις	lion	λίς	lion
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.18.6	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.23.3	7	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.37.2	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.47.2	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.50.4	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.54.4	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.55.4	6	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.56.3	6	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.74.4	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.75.2	3	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.76.1	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.76.4	8	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.78.1	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.78.4	3	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.78.4	6	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.80.6	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.83.1	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.84.3	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.85.4	6	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.86.2	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.87.1	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.91.1	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.92.8	6	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.101.6	6	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.105.1	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.110.2	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.111.1	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.113.1	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.117.6	7	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.120.2	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.125.3	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.126.2	6	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.130.4	7	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.132.4	3	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.142.4	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.146.4	3	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.153.3	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.154.4	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.157.1	4	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.158.2	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.162.2	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.163.1	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.167.2	5	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.202.1	2	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love
+REVIEW capitalized name linked to common word	tlg7000.tlg001.v9	12.256.2	3	Ἔρως	ἔρως	love	Ἔρως	Eros — Eros, god of love

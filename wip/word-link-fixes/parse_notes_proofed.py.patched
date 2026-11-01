@@ -1,0 +1,292 @@
+#!/usr/bin/env python3
+"""Turn an edition's proofread notes pages into notes tied to the exact words of the work.
+
+Usage: parse_notes_proofed.py PROOF_DIR LINEMAP.json WORDS.json OUT.json [ABBREVIATIONS.json [SELECTION.json]]
+  PROOF_DIR      p-NNN.txt files, as the proofreading step writes them (first line "HEAD: <running head>", then one
+                 note per line: "23. head: comment" or "139. 1. head: comment" where a new page of the text begins)
+  LINEMAP.json   from match_words.py: {"lo": first word id, "map": {"page.line": [first, last word position]}}
+  WORDS.json     the work's words by position: {"lo": .., "words": [[text, section ref, word number in section], ..]}
+  SELECTION.json the edition's word-exact selection (selections/data/<id>.json): a note is only tied to words she printed
+
+Each note's head word(s), before the colon, are looked up among the words printed on its line and the lines either
+side. The proofread Greek is exact, so heads are compared letter for letter (accents ignored); a head with ". . ."
+names the first and last words of a stretch. Barbour's cross-references like "73, 4" (her page and line) are
+turned into Herodotus references. Writes {"source", "notes": [{page, line, ref, word, nwords, head, text, links}]}.
+"""
+import sys, re, json, os, unicodedata, difflib
+
+proof_dir, lm_path, words_path, out_path = sys.argv[1:5]
+lm = json.load(open(lm_path)); lmap = lm['map']
+W = json.load(open(words_path))
+assert W['lo'] == lm['lo']
+words = W['words']
+pages_known = sorted({int(k.split('.')[0]) for k in lmap})
+first_page, last_page = pages_known[0], pages_known[-1]
+
+def strip(w):
+    w = unicodedata.normalize('NFD', w.lower())
+    w = ''.join(c for c in w if not unicodedata.combining(c)).replace('ς', 'σ')
+    return re.sub('[^α-ω]', '', w)
+
+def greek_words(s):
+    s = re.sub(r'\([^)]*\)', ' ', s)                         # words Barbour supplies in brackets are not in the text
+    s = re.sub(r'\bκτλ\b\.?', ' ', s)
+    return [w for w in (strip(x) for x in s.split()) if w]
+
+# --- read the pages into notes ------------------------------------------------------------------------------------
+NOTE_PL = re.compile(r'^(\d{2,3})\.\s+(\d{1,2})(?:\s*[–-]\s*\d{1,2})?(?:\.|\s+ff\.)\s+(.*)$')
+NOTE_L = re.compile(r'^(\d{1,2})(?:\s*[–-]\s*\d{1,2})?(?:\.|\s+ff\.)\s+(.*)$')   # "21. head:" or "21 ff. head:"
+SUP = '¹²³⁴⁵⁶⁷⁸⁹⁰'
+HEAD_LEFT = re.compile(r'\[\s*PAGE\s+(\d+),\s*LINE\s+(\d+)', re.I)      # left-hand pages name their FIRST note
+
+entries, page = [], None
+files = sorted(f for f in os.listdir(proof_dir) if re.fullmatch(r'p-\d+\.txt', f))
+for f in files:
+    lines = open(os.path.join(proof_dir, f), encoding='utf-8').read().splitlines()
+    if not lines:
+        continue
+    head = lines[0][5:].strip() if lines[0].startswith('HEAD:') else ''
+    body = lines[1:] if head or lines[0].startswith('HEAD:') else lines
+    if any(l.strip() == 'NOT NOTES' for l in body[:2]):
+        continue
+    m = HEAD_LEFT.search(head) if re.match(r'^\d+\s+NOTES', head) else None   # right-hand heads name the LAST note
+    if m and first_page <= int(m.group(1)) <= last_page:
+        page = int(m.group(1))
+    right = None if m else re.search(r'PAGE\s+(\d+),\s*LINE\s+(\d+)', head, re.I)
+    start = len(entries)
+    for raw in body:
+        t = raw.strip()
+        if not t:
+            continue
+        marks = re.findall(r'\s*\[([\dV.]+)\]\s*$', t)
+        t = re.sub(r'(\s*\[[\dV.]+\])+\s*$', '', t)
+        if t[0] in SUP:
+            continue                                          # a printed footnote ("¹ References to the text are made by page and line.")
+        t = re.sub('(?<=\\.)[' + SUP + ']+', '', t)          # footnote mark after a line number: "49. 1.¹ The words"
+        mp, ml = NOTE_PL.match(t), NOTE_L.match(t)
+        if mp and first_page <= int(mp.group(1)) <= last_page and (page is None or page <= int(mp.group(1)) <= page + 3):
+            page = int(mp.group(1))
+            entries.append({'page': page, 'line': int(mp.group(2)), 'text': mp.group(3), 'file': f, 'newpage': True})
+        elif ml and page is not None:
+            entries.append({'page': page, 'line': int(ml.group(1)), 'text': ml.group(2), 'file': f})
+        elif entries:
+            entries[-1]['text'] += ' ' + t                    # a note that ran on to a second line
+        if entries and marks:
+            entries[-1].setdefault('sections', []).extend(marks)
+    if right and len(entries) > start:
+        # the running head of a right-hand page names its last note: notes before the first "page. line." on this
+        # page belong to the page before that one, or to the head's page if no new text page starts here
+        last = int(right.group(1))
+        mine = entries[start:]
+        k = next((i for i, x in enumerate(mine) if x.get('newpage')), None)
+        for x in mine[:k if k is not None else len(mine)]:
+            x['page'] = last if k is None else mine[k]['page'] - 1
+        page = mine[-1]['page'] if k is not None else last
+
+# --- tie each head word to the text ------------------------------------------------------------------------------
+# The page/line map can be off by a few lines on a page (a heading, or a misread line number). Barbour's notes fix
+# that: on each page, see how far from its stated line each note's head word actually sits, and shift by the usual gap.
+line_at = {}
+for k, (a, b) in lmap.items():
+    for p in range(a, b + 1):
+        line_at.setdefault(p, []).append(k)
+by_word = {}
+for i, w in enumerate(words):
+    by_word.setdefault(strip(w[0]), []).append(i)
+gaps = {}
+for e in entries:
+    for piece in re.split(r'\s+—\s+', e['text']):
+        head, sep, _ = piece.partition(':')
+        hw = greek_words(re.split(r'\s*(?:\.\s*){3}|…', head)[0]) if sep else []
+        if not hw or len(''.join(hw)) < 6:
+            continue
+        found = []
+        for p in by_word.get(hw[0], []):
+            if [strip(words[q][0]) for q in range(p, min(p + len(hw), len(words)))] == hw:
+                found += [k for k in line_at.get(p, []) if k.split('.')[0] == str(e['page'])]
+        if len(found) == 1:
+            gaps.setdefault(e['page'], []).append((e['line'], int(found[0].split('.')[1]) - e['line']))
+shift = {}
+for pg, g in gaps.items():
+    d = sorted(x for _, x in g)
+    med = d[len(d) // 2]
+    if med and sum(1 for x in d if abs(x - med) <= 1) >= max(3, len(d) // 2):
+        shift[pg] = med
+
+def shift_at(page, line):
+    """the gap of the notes nearest this line (part of a page can be off and the rest not), else the page's usual gap"""
+    near = sorted(x for l, x in gaps.get(page, []) if abs(l - line) <= 6)
+    if len(near) >= 2 and sum(1 for x in near if x == near[len(near) // 2]) >= 2:
+        return near[len(near) // 2]
+    return shift.get(page, 0)
+
+def candidates(page, line):
+    out = {}
+    line += shift_at(page, line)
+    for d in (0, -1, 1, -2, 2):
+        r = lmap.get(f'{page}.{line + d}')
+        if r and r[1] - r[0] < 40:
+            for p in range(r[0], r[1] + 1):
+                out.setdefault(p, abs(d))
+    return sorted(out.items())
+
+def find(want, cands, after=None):
+    """the run of printed words that spells `want` (a list of accentless words); exact first, then near"""
+    if not want:
+        return None, 0
+    pos = [p for p, _ in cands if after is None or after < p <= after + 25]
+    dist = dict(cands)
+    best, score = None, 0.0
+    for i, p in enumerate(pos):
+        run = pos[i:i + len(want)]
+        if len(run) < len(want) or run[-1] - run[0] != len(want) - 1:
+            continue
+        got = [strip(words[q][0]) for q in run]
+        if got == want:
+            r = 1.0
+        else:
+            r = difflib.SequenceMatcher(None, ''.join(want), ''.join(got)).ratio()
+        r -= 0.02 * dist.get(p, 0)
+        if r > score:
+            best, score = run, r
+    return best, score
+
+printed = {p for a, b in lmap.values() for p in range(a, b + 1)}   # every word position in her printed text
+if len(sys.argv) > 6:                                                # better: the selection itself, word by word
+    at = {(w[1], w[2]): i for i, w in enumerate(words)}
+    printed = set()
+    for a, aw, b, bw in next(iter(json.load(open(sys.argv[6]))['works'].values())):
+        printed.update(range(at[(a, aw)], at[(b, bw)] + 1))
+
+def page_span(page):
+    ks = [v for k, v in lmap.items() if k.split('.')[0] == str(page)]
+    return (min(v[0] for v in ks), max(v[1] for v in ks)) if ks else None
+
+def expected(page, line):
+    """where in the work this page and line should be: the map, or a guess between the page's ends"""
+    l = line + shift_at(page, line)
+    for d in (0, -1, 1, -2, 2, -3, 3):
+        r = lmap.get(f'{page}.{l + d}')
+        if r:
+            return r[0] + d * -8
+    sp = page_span(page)
+    return sp[0] + (sp[1] - sp[0]) * line // 32 if sp else None
+
+def find_wide(parts, page, line):
+    """the head anywhere from the page before to the page after, exact or a close spelling (Barbour's spelling can
+    differ from our text: τείσεσθαι / τίσεσθαι); the nearer to where the note says, the better"""
+    spans = [page_span(p) for p in (page - 1, page, page + 1)]
+    spans = [x for x in spans if x]
+    exp = expected(page, line)
+    if not spans or exp is None:
+        return None, 0
+    lo, hi = min(x[0] for x in spans), max(x[1] for x in spans)
+    cands = [(p, 0) for p in range(lo, hi + 1)]
+    first = parts[0]
+    best, score = None, 0.0
+    for i in range(lo, hi + 1 - len(first) + 1):
+        if not all(q in printed for q in range(i, i + len(first))):
+            continue                                       # only words she printed (a passage she cut can sit inside a page)
+        got = [strip(words[q][0]) for q in range(i, i + len(first))]
+        if got[0][:2] != first[0][:2] and got[0][-2:] != first[0][-2:]:
+            continue
+        r = 1.0 if got == first else difflib.SequenceMatcher(None, ''.join(first), ''.join(got)).ratio()
+        if r < 0.86 or (len(''.join(first)) <= 6 and abs(i - exp) > 40):
+            continue                                       # a near spelling must be close; a short word must be near
+        r -= min(0.25, abs(i - exp) / 8 * 0.006)          # about 8 words to a printed line
+        if r > score:
+            best, score = list(range(i, i + len(first))), r
+    if best and len(parts) > 1:
+        end, s2 = find(parts[-1], cands, after=best[-1])
+        if end and s2 >= 0.8:
+            best = list(range(best[0], end[-1] + 1))
+    return best, score
+
+SPLIT = re.compile(r'\s+—\s+(?=[^:—]{1,80}:)')
+REF = re.compile(r'(?<!Synt\. )(?<!Dial\. )(?<!pp\. )(?<!§ )(?:\bp\. )?\b(\d{2,3}),\s*(\d{1,2})\b')   # "49, 14" or "p. 65, 9" (page, line of her text)
+
+LREF = re.compile(r'\bll?\.\s*(\d{1,2})(?:\s*[-–]\s*\d{1,2})?\b')
+
+def link(page, line):
+    r = lmap.get(f'{page}.{line + shift_at(page, line)}')
+    if not r:
+        return None
+    w = words[r[0]]
+    return {'ref': w[1], 'word': w[2]}
+
+FIXES = {}
+if len(sys.argv) > 5 and os.path.exists(sys.argv[5].replace('-abbreviations', '-note-fixes')):
+    FIXES = json.load(open(sys.argv[5].replace('-abbreviations', '-note-fixes')))['fixes']
+
+notes, unplaced = [], 0
+for e in entries:
+    cands = candidates(e['page'], e['line'])
+    for piece in SPLIT.split(e['text']):
+        head, sep, body = piece.partition(':')
+        if not sep or len(head.split()) > 10 or not re.search('[Ͱ-Ͽἀ-῿]', head):
+            head, body = '', piece
+            m = re.match(r'^((?:[\u0370-\u03ff\u1f00-\u1fff\u0300-\u036f᾽’\']+\s*(?:\.\s*\.\s*\.\s*)?){1,6}?)\s*(?=[=;(,]|\.\s)', piece)
+            if m and not re.search('[A-Za-z]', m.group(1)):
+                head, body = m.group(1), piece[m.end():].lstrip('.;, ')
+        note = {'page': e['page'], 'line': e['line'], 'head': head.strip(), 'text': body.strip()}
+        parts = [greek_words(x) for x in re.split(r'\s*(?:\.\s*){3}|…', head)] if head else []
+        parts = [p for p in parts if p]
+        best, score = (None, 0)
+        if parts and cands:
+            best, score = find(parts[0], cands)
+            if best and len(parts) > 1:
+                end, s2 = find(parts[-1], cands, after=best[-1])
+                if end:
+                    best, score = list(range(best[0], end[-1] + 1)), min(score, s2)
+        if parts and not (best and score >= 0.95):
+            wb, ws = find_wide(parts, e['page'], e['line'])
+            if wb and ws > score:
+                best, score = wb, ws
+        if best and score >= (0.8 if len(''.join(parts[0])) <= 6 else 0.7):
+            w0 = words[best[0]]
+            note.update({'ref': w0[1], 'word': w0[2], 'nwords': len(best), 'match': round(score, 2)})
+        elif cands:
+            w0 = words[min(cands, key=lambda c: c[1])[0]]
+            note.update({'ref': w0[1], 'word': None, 'match': round(score, 2)})
+            unplaced += 1
+        elif expected(e['page'], e['line']) is not None:
+            x = expected(e['page'], e['line'])                     # no map for this line: the nearest guess
+            if x not in printed and printed:
+                x = min(printed, key=lambda q: (abs(q - x), q < x))   # ...among the words she printed
+            w0 = words[x]
+            note.update({'ref': w0[1], 'word': None, 'match': round(score, 2)})
+            unplaced += 1
+        else:
+            unplaced += 1
+            continue
+        fix = FIXES.get(f"{e['page']}.{e['line']}|{note['head']}")
+        if fix:                                                     # placed by hand (data/<id>-note-fixes.json)
+            note.update({'ref': fix[0], 'word': fix[1], 'nwords': 1, 'match': 1.0})
+        links = []
+        for m in REF.finditer(note['text']):
+            p, l = int(m.group(1)), int(m.group(2))
+            if first_page <= p <= last_page:
+                t = link(p, l)
+                if t:
+                    links.append({'at': m.group(0), 'page': p, 'line': l, **t})
+        for m in LREF.finditer(note['text']):                   # "l. 17": a line on the same page of her text
+            t = link(e['page'], int(m.group(1)))
+            if t:
+                links.append({'at': m.group(0), 'page': e['page'], 'line': int(m.group(1)), **t})
+        if links:
+            note['links'] = links
+        if e.get('sections'):
+            note['sections'] = e['sections']
+        notes.append(note)
+
+out = {'source': 'Amy L. Barbour, Selections from Herodotus (Boston: D. C. Heath, 1929), Notes. Public domain.',
+       'transcription': 'OCR (tesseract 5) proofread against the page images.',
+       'line_shift': shift, 'notes': notes}
+if len(sys.argv) > 5:
+    out['abbreviations'] = json.load(open(sys.argv[5]))['abbr']
+json.dump(out, open(out_path, 'w'), ensure_ascii=False, indent=0)
+tied = sum(1 for n in notes if n.get('word') is not None)
+pages = sorted({n['page'] for n in notes})
+print(f"line map corrected on {len(shift)} pages: {shift}")
+print(f"{len(entries)} note paragraphs -> {len(notes)} notes; {tied} tied to exact words "
+      f"({100 * tied / max(1, len(notes)):.0f}%); {unplaced} only to a line or not placed; pages {pages[0]}-{pages[-1]}")
