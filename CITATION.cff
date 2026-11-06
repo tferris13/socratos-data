@@ -5,6 +5,12 @@ type: dataset
 authors:
   - name: "Socratos"
     website: "https://socratos.org"
+abstract: >-
+  Open Greek and Latin reading data from Socratos (https://socratos.org), a free
+  reader for ancient Greek and Latin: 555 Greek and 170 Latin works from the
+  Perseus Digital Library, every word with its lemma and parse, Liddell-Scott-Jones
+  and Lewis & Short dictionary entries, short English meanings, citations and
+  paradigm tables, as plain TSV and JSON Lines.
 url: "https://socratos.org"
 repository-code: "https://github.com/tferris13/socratos-data"
 license: CC-BY-SA-4.0
@@ -16,3 +22,5 @@ keywords:
   - LSJ
   - Lewis and Short
   - Perseus
+  - Classics
+  - digital humanities
