@@ -11,6 +11,7 @@ abstract: >-
   Perseus Digital Library, every word with its lemma and parse, Liddell-Scott-Jones
   and Lewis & Short dictionary entries, short English meanings, citations and
   paradigm tables, as plain TSV and JSON Lines.
+doi: "10.5281/zenodo.24015358"
 url: "https://socratos.org"
 repository-code: "https://github.com/tferris13/socratos-data"
 license: CC-BY-SA-4.0

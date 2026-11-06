@@ -1,5 +1,7 @@
 # Socratos data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24015358.svg)](https://doi.org/10.5281/zenodo.24015358)
+
 The Greek and Latin text and dictionary data behind [Socratos](https://socratos.org), a free reader for
 ancient Greek and Latin, shared under the same open licences as the sources it was built from.
 
@@ -10,6 +12,9 @@ ancient Greek and Latin, shared under the same open licences as the sources it w
 | `greek.zip` | 555 Greek works: passages, every word with its lemma and parse, LSJ entries, short meanings, citations, paradigm tables | CC BY-SA 4.0 |
 | `latin.zip` | 170 Latin works: the same with Lewis & Short, plus scansion of the verse | CC BY-SA 4.0 |
 | `latin-readings-nc.zip` | the reading chosen for each Latin word in its sentence | CC BY-NC-SA 4.0 (non-commercial) |
+
+The same files are also on [Zenodo](https://doi.org/10.5281/zenodo.24015358) (permanent DOI for citing) and
+[Hugging Face](https://huggingface.co/datasets/tferris13/socratos-data).
 
 Files are plain TSV and JSON Lines. [FORMAT.md](FORMAT.md) explains every column and the parse codes.
 
